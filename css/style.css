@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+html{
+  scroll-behavior: smooth;
+}
 .header {
   max-width: 1600px;
   width: auto;
@@ -21,9 +25,17 @@
   padding: 20px 0;
 }
 
-.header input {
+.header__logo-menu input{
   display: none;
 }
+.header__logo-menu label{
+  display: none;
+}
+
+.qoshnisi{
+  display: none;
+}
+
 
 .header__logo-menu ul {
   display: -webkit-box;
@@ -237,6 +249,7 @@
   flex-direction: column;
   margin: 140px auto;
 }
+
 .main-1--container h2 {
   color: #282b22;
   text-align: center;
@@ -675,6 +688,15 @@
     height: auto;
   }
 
+  .header__logo-menu label{
+   display: block;
+   font-size: 34px;
+   cursor: pointer;
+  }
+
+   
+
+
   .header__logo-menu {
     width: 600px;
     height: auto;
@@ -682,11 +704,13 @@
 
   .header__logo-menu ul {
     display: none;
+    flex-direction: column;
+    text-align: end;
   }
 
-  .header__logo-menu input {
+  /* .header__logo-menu input {
     display: block;
-  }
+  } */
 
   .line {
     max-width: 600px;
