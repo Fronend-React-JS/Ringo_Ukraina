@@ -1,0 +1,1050 @@
+@charset "UTF-8";
+.header {
+  max-width: 1600px;
+  width: auto;
+  height: auto;
+}
+
+.header__logo-menu {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header input {
+  display: none;
+}
+
+.header__logo-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.header__logo-menu ul li {
+  list-style: none;
+}
+
+.header__logo-menu ul li a {
+  text-decoration: none;
+  color: #282b22;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  /* 16px */
+}
+
+.ulanishlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 63px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ulanishlar phone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ulanishlar a {
+  text-decoration: none;
+  color: #3d4a39;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 20px */
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.hero__container {
+  max-width: 1600px;
+  width: 100%;
+  height: 672px;
+
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) -13.19%,
+      rgba(0, 0, 0, 0.85) 94.01%
+    ),
+    url(../img/bk-color.png);
+}
+
+.hero__container .hero__container--furniture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero__container .hero__container--furniture h1 {
+  color: #fff;
+  text-align: center;
+  max-width: 446px;
+  width: auto;
+  /* Заголовок_H1 */
+  font-family: "Lato";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 67.2px */
+  text-transform: uppercase;
+  margin-top: 120px;
+}
+
+.hero__container .hero__container--furniture p {
+  width: 537px;
+  color: #fff;
+  text-align: center;
+  /* text_18px (medium) */
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+}
+
+.hero__container .hero__container--furniture button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  padding: 22px 56px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  background: #ae7b3c;
+  -webkit-box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  /* text_botton */
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 16px */
+}
+
+.hero__container .hero__container--furniture button:hover {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  border-radius: 8px;
+  background-color: #cc9654;
+}
+
+.hero__container .line {
+  width: 1200px;
+  height: 3px;
+  opacity: 0.4;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.hero__container .icons {
+  width: 1200px;
+  height: auto;
+  margin: 25px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.hero__container .icons .symbol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.hero__container .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.hero__container .numbers .doira {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #a9a8a8;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.hero__container .numbers .doira p {
+  color: #a9a8a8;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.main {
+  width: 1600px;
+  height: auto;
+}
+
+.main-1--container {
+  width: 1200px;
+  height: 596px;
+  display: flex;
+  flex-direction: column;
+  margin: 140px auto;
+}
+.main-1--container h2 {
+  color: #282b22;
+  text-align: center;
+
+  font-family: "Raleway";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.designer {
+  width: 384px;
+  height: 425px;
+  display: flex;
+  gap: 29px;
+}
+
+.home-furnitures {
+  border-left: 2px solid #b0b2ae;
+  padding-left: 29px;
+}
+
+.uch {
+  border-right: 2px solid #b0b2ae;
+  padding-right: 29px;
+}
+.designer img {
+  width: 354px;
+  height: 320px;
+}
+
+.designer h4 {
+  color: #282b22;
+  margin-top: 0;
+
+  /* Заголовок_H5 */
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  opacity: 0.5;
+}
+
+.designer p {
+  color: #3d4a39;
+
+  /* Заголовок_H5 */
+  font-family: "Ralewa";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+}
+
+/* main-2 */
+
+.main-2 {
+  max-width: 1600px;
+  height: auto;
+}
+
+.main-2--container {
+  width: 1600px;
+  height: auto;
+  background: #3d4a39;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main-2--container h2 {
+  color: #fff;
+
+  /* заголовок_H2 */
+  font-family: "Raleway";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 57.5px */
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.top-block {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.bottom-block {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-text p {
+  color: #fff;
+  width: 250px;
+  height: auto;
+  text-align: center;
+
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+/* main-3 css */
+
+.main-3 {
+  max-width: 1600px;
+  height: auto;
+  margin-top: 100px;
+}
+
+.main-3__top-part {
+  width: 1360px;
+  height: 439px;
+  margin: 0 auto;
+}
+
+.kitchen {
+  display: flex;
+}
+
+.kitchen h3 {
+  width: 814px;
+  color: #282b22;
+  text-align: center;
+
+  font-family: "Raleway";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 46.8px */
+}
+
+.top-line {
+  width: 926px;
+  height: 2px;
+  opacity: 0.2;
+  background: #282b22;
+  margin: 0 auto;
+}
+
+.bedroom {
+  width: 926px;
+  height: auto;
+  display: flex;
+  gap: 60px;
+  margin: 0 auto;
+}
+
+.bedroom-first-block {
+  width: 403px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.bedroom-first-block img {
+  margin-top: 25px;
+}
+
+.bedroom-first-block p {
+  color: #282b22;
+  width: 330px;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  opacity: 0.8;
+}
+
+.bedroom-second-block {
+  width: 403px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.bedroom-second-block img {
+  margin-top: 25px;
+}
+
+.bedroom-second-block p {
+  color: #282b22;
+  width: 370px;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  opacity: 0.8;
+}
+
+.center-line {
+  width: 2px;
+  height: 177px;
+  opacity: 0.2;
+  background: #282b22;
+}
+
+.bottom-line {
+  width: 1200px;
+  height: 2px;
+  opacity: 0.2;
+  background: #282b22;
+  margin: 0 auto;
+}
+
+.img img {
+  position: absolute;
+  right: -250px;
+  top: -180px;
+}
+
+/* main-3__bottom-part */
+
+.main-3__bottom-part {
+  width: 1200px;
+  height: 1052px;
+  margin: 0 auto;
+}
+
+.main-3__bottom-part h2 {
+  color: #282b22;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.bottom-part__block {
+  width: 1200px;
+  height: auto;
+}
+
+.small-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-block h3 {
+  width: 28px;
+  height: 24px;
+  color: #282b22;
+
+  /* Заголовок_H5 */
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  opacity: 0.3;
+}
+
+.small-block--small {
+  width: 517px;
+  height: auto;
+}
+
+.small-block--small h4 {
+  color: #282b22;
+
+  font-family: "Raleway";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 41.6px */
+}
+
+.small-block--small p {
+  color: #282b22;
+
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 21.6px */
+}
+
+.red-block h3 {
+  color: #ae7b3c;
+  opacity: 1;
+}
+
+.red-block h4 {
+  color: #ae7b3c;
+}
+
+.blocks-line {
+  width: 1200px;
+  height: 2px;
+  opacity: 0.2;
+  background: #282b22;
+}
+
+.small-line {
+  width: 2px;
+  height: 124px;
+  opacity: 0.2;
+  background: #282b22;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+/* tablet css resopsive */
+
+@media screen and (max-width: 1000px) {
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .header-Logo {
+    width: 960px !important;
+    height: auto;
+  }
+
+  .line {
+    max-width: 1000px;
+    width: 96%;
+    height: auto;
+  }
+
+  .icons {
+    max-width: 1000px;
+    width: 960px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  /* main css */
+
+  .main {
+    max-width: 1000px;
+    height: auto;
+  }
+
+  .main-1--container {
+    width: 960px;
+    height: auto;
+  }
+
+  .designer {
+    width: 960px;
+    height: auto;
+    gap: 5px;
+  }
+
+  .home-furnitures {
+    max-width: 300px;
+    width: 100%;
+    height: 480px;
+  }
+
+  .home-furnitures h4 {
+    margin-bottom: 60px;
+  }
+
+  .home-furnitures img {
+    width: 280px;
+    height: 320px;
+    margin-top: 30px;
+  }
+
+  /* main-2 css */
+
+  .main-2 {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-2--container {
+    width: 100%;
+    height: 688px;
+    padding-bottom: 0px;
+  }
+
+  /* main-3 css */
+
+  .main-3 {
+    max-width: 1000px;
+  }
+
+  .main-3__top-part {
+    width: 96%;
+    height: 399px;
+  }
+
+  .kitchen img {
+    display: none;
+  }
+
+  .kitchen h3 {
+    margin: 0 auto;
+    margin-bottom: 81px;
+  }
+}
+
+/* 640px li ekranlar uchun */
+
+@media screen and (max-width: 640px) {
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .header__logo-menu {
+    width: 600px;
+    height: auto;
+  }
+
+  .header__logo-menu ul {
+    display: none;
+  }
+
+  .header__logo-menu input {
+    display: block;
+  }
+
+  .line {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+
+  .icons {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+
+  .numbers .doira {
+    width: 31px;
+    height: 31px;
+    border: 1px solid #a9a8a8 !important;
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  .main {
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-1--container {
+    width: 600px;
+    height: 1090px;
+  }
+
+  .main-1--container h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .designer {
+    width: 600px;
+    height: auto;
+    position: relative;
+  }
+
+  .uch {
+    position: absolute;
+    top: 500px;
+    border-right: none;
+  }
+
+  .home-furnitures {
+    width: 280px;
+    height: 438px;
+    padding-left: 20px;
+    padding-right: 15px;
+    display: inline-block;
+  }
+
+  .home-furnitures img {
+    width: 280px;
+    height: 320px;
+    margin-top: 0;
+  }
+
+  .home-furnitures h4 {
+    margin-bottom: 45px;
+  }
+
+  .main-2 {
+    width: 640px;
+    height: 655px;
+  }
+
+  .main-2--container {
+    width: 640px;
+    height: 655px;
+  }
+
+  .main-2--container h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .top-block {
+    width: 100%;
+    height: auto;
+    margin-bottom: 83px;
+  }
+
+  .img-text {
+    width: 195px;
+    height: auto;
+  }
+
+  .img-text p {
+    font-size: 18px;
+  }
+
+  .bottom-block {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-text {
+    width: 195px;
+    height: auto;
+  }
+
+  .img-text p {
+    font-size: 18px;
+  }
+
+  /* main-3 css */
+
+  .main-3 {
+    width: 640px;
+    height: auto;
+  }
+
+  .main-3__top-part {
+    width: 600px;
+    height: auto;
+  }
+
+  .kitchen h3 {
+    font-size: 28px;
+    opacity: 0.8;
+    margin-top: 100px;
+  }
+
+  .bedroom {
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+
+  .top-line {
+    width: 600px;
+  }
+
+  .bottom-line {
+    display: none;
+  }
+
+  .img img {
+    display: none;
+  }
+
+  .bedroom-first-block {
+    width: 271px;
+    height: 138px;
+  }
+
+  .bedroom-second-block {
+    width: 270px;
+    height: 115px;
+  }
+
+  .bedroom p {
+    font-size: 16px;
+  }
+}
+
+/* mobilne css 320px ekranlli tellar uchhun */
+
+@media screen and (max-width: 375px) {
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  .header__logo-menu {
+    width: 300px;
+    height: auto;
+  }
+
+  .ulanishlar {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero__container {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero__container--furniture {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .hero__container--furniture h1 {
+    text-align: center;
+    font-size: 28px !important;
+  }
+
+  .hero__container--furniture p {
+    max-width: 300px;
+    width: 100%;
+    height: 115px;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+
+  .line {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+  }
+
+  .symbol img {
+    display: none;
+  }
+
+  .icons {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+  }
+
+  .icons .numbers {
+    margin: 0 auto;
+  }
+
+  /* main css */
+
+  .main {
+    max-width: 375px;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-1--container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .main-2--container h2 {
+    font-size: 28px;
+    font-family: "Lato";
+  }
+
+  .designer {
+    width: 300px;
+    height: 1457px;
+    flex-direction: column;
+    gap: 70px;
+    margin: 0 auto;
+  }
+
+  .home-furnitures {
+    width: 300px;
+    height: 413px;
+    border: none;
+    padding-left: 8px;
+  }
+
+  .home-furnitures img {
+    width: 300px;
+    height: 320px;
+  }
+
+  .uch {
+    top: 970px;
+  }
+
+  /* main-2 css */
+
+  .main-2 {
+    max-width: 375px;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-2--container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .main-2--container h2 {
+    font-size: 28px;
+  }
+
+  .top-block {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .bottom-block {
+    width: 150px;
+    height: 456px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 55px;
+  }
+
+  .mobile-un {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-text p {
+    opacity: 0.5;
+    width: 150px;
+    height: auto;
+  }
+
+  /* main-3 css */
+
+  .main-3 {
+    max-width: 375px;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-3__top-part {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .kitchen {
+    width: 300px;
+    height: auto;
+  }
+
+  .kitchen h3 {
+    font-size: 20px;
+    opacity: 1;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+  }
+
+  .top-line {
+    width: 300px;
+    height: 2px;
+  }
+
+  .bedroom {
+    flex-direction: column;
+  }
+
+  .center-line {
+    width: 300px;
+    height: 1px;
+  }
+
+  .bottom-line {
+    display: none;
+  }
+}
